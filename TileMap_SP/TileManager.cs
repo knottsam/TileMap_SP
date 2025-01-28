@@ -10,7 +10,7 @@ using System.Data;
 
 namespace TileMap_SP
 {
-    static class TileManager
+    static class TileManager//This class will read the file and create the tiles
     {
         //Need a 2D array to store the tiles
         private static int[,] tileArray;
